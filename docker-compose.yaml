@@ -1,0 +1,6 @@
+services:
+  # import and deps
+  wiremock:
+    image: wiremock/wiremock:3.0.3-1
+    ports:
+    - 8080:8080
